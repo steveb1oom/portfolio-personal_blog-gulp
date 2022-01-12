@@ -1,0 +1,158 @@
+---
+layout: default
+title: Post
+---
+
+
+<article class="post">
+    <div class="post__actions">
+        <a href="index.html">вернуться назад</a>
+        <a href="#">
+            поделиться<img class="post__actions-icon" src="assets/images/share.svg" alt="поделиться">
+        </a>
+    </div>
+
+    <div class="post__header  post__header--open">
+        <h1 class="post__title  post__title--open">Lorem ipsum dolor sit amet.</h1>
+        <ul class="post__data">
+            <li class="post__data-item">
+                <time datetime="2020-06-21 19:20">21.06.2020</time>
+            </li>
+            <li class="post__data-item">
+                <a href="#">конференции</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="post__content">
+        <div class="post__text">
+            <h2>Title h2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam vero officiis ad quo, ut adipisci dolorum accusamus omnis blanditiis eos excepturi ratione reprehenderit nostrum, sapiente ullam autem atque molestias magnam.</p>
+
+            <h3>Title h3</h3>
+            <p>Lorem <a href="#">ipsum dolor sit</a> amet, consectetur adipisicing elit. Numquam vero officiis ad quo, ut adipisci dolorum accusamus omnis blanditiis eos excepturi ratione reprehenderit nostrum, sapiente ullam autem atque molestias magnam.</p>
+
+            <h4>Title h4</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi neque provident consectetur esse obcaecati facere fugit vel necessitatibus, rerum quod sint laudantium voluptates architecto. Doloribus, nobis animi perspiciatis amet in.</p>
+
+            <p>
+                <img src="assets/images/image.jpg" alt="">
+            </p>
+
+            <ul>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ul>
+
+            <ol>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ol>
+
+            <table>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </table>
+
+            <p>
+                <span class="fr-video">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </span>
+            </p>
+        </div><!-- /.post__text -->
+
+        <div class="related">
+            <h3 class="post__subtitle">Интересно почитать</h3>
+
+            <ul class="related__list">
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Lorem ipsum dolor sit amet.</a>
+                    </h4>
+                    <time class="related__list-date" datetime="2020-06-21 19:21">21.06.2020</time>
+                </li>
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</a>
+                    </h4>
+                    <time class="related__list-date" datetime="2020-06-21 19:21">21.06.2020</time>
+                </li>
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Lorem ipsum dolor sit amet.</a>
+                    </h4>
+                    <time class="related__list-date" datetime="2020-06-21 19:21">21.06.2020</time>
+                </li>
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Lorem ipsum dolor sit amet.</a>
+                    </h4>
+                    <time class="related__list-date" datetime="2020-06-21 19:21">21.06.2020</time>
+                </li>
+            </ul>
+        </div><!-- /.related -->
+
+
+        <h3 class="post__subtitle">Обсуждение</h3>
+
+        <form class="form" action="/" method="post">
+            <div class="form__group">
+                <textarea class="form__control  form__control--textarea" name="comment-text" placeholder="Текст комментария" data-autoresize></textarea>
+                <span class="form__line"></span>
+            </div>
+            <button class="btn  btn--blue  btn--rounded  btn--sm" type="submit">Отправить</button>
+        </form>
+
+        <ul class="comments">
+            <li class="comments__item">
+                <div class="comments__header">
+                    <img class="comments__avatar" src="https://via.placeholder.com/30" alt="">
+
+                    <div class="comments__author">
+                        <div class="comments__name">Steve Bloom</div>
+                        <time class="comments__pubdate" datetime="2020-12-21 19:21">1 неделю назад</time>
+                    </div>
+                </div>
+
+                <div class="comments__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, suscipit accusantium aut culpa eius esse architecto nobis sit excepturi expedita, repellendus quae praesentium rerum earum molestias ullam a doloribus at.</div>
+                <button class="comments__reply" type="button">ответить</button>
+
+                <ul class="comments">
+                    <li class="comments__item">
+                        <div class="comments__header">
+                            <img class="comments__avatar" src="https://via.placeholder.com/30" alt="">
+
+                            <div class="comments__author">
+                                <div class="comments__name">Steve Bloom</div>
+                                <time class="comments__pubdate" datetime="2020-12-21 19:21">1 неделю назад</time>
+                            </div>
+                        </div>
+
+                        <div class="comments__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, suscipit accusantium aut culpa eius esse architecto nobis sit excepturi expedita, repellendus quae praesentium rerum earum molestias ullam a doloribus at.</div>
+                        <button class="comments__reply" type="button">ответить</button>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="comments__item">
+                <div class="comments__header">
+                    <img class="comments__avatar" src="https://via.placeholder.com/30" alt="">
+
+                    <div class="comments__author">
+                        <div class="comments__name">Steve Bloom</div>
+                        <time class="comments__pubdate" datetime="2020-12-21 19:21">1 неделю назад</time>
+                    </div>
+                </div>
+
+                <div class="comments__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, suscipit accusantium aut culpa eius esse architecto nobis sit excepturi expedita, repellendus quae praesentium rerum earum molestias ullam a doloribus at.</div>
+                <button class="comments__reply" type="button">ответить</button>
+            </li>
+        </ul>
+
+    </div><!-- /.post__content -->
+</article><!-- /.post -->
